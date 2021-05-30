@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/WalterPaes/go-cep/cep"
+	"github.com/WalterPaes/go-viacep/cep"
 	"io/ioutil"
 	"log"
 	"net/http"

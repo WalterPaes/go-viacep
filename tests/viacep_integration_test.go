@@ -1,8 +1,8 @@
 package tests
 
 import (
-	"github.com/WalterPaes/go-cep/cep"
-	"github.com/WalterPaes/go-cep/viacep"
+	"github.com/WalterPaes/go-viacep/cep"
+	"github.com/WalterPaes/go-viacep/viacep"
 	"testing"
 )
 
