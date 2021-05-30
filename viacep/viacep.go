@@ -19,7 +19,7 @@ func NewIntegration(cep cep.CEP) *Integration {
 }
 
 func (vcs Integration) GetAddress() (*cep.Address, error) {
-	url := fmt.Sprintf("https://viacep.com.br/ws/%s/json/", vcs.cep)
+	url := fmt.Sprintf("https://viacep.com.br/ws/%v/json/", vcs.cep)
 	resp, err := http.Get(url)
 	if err != nil {
 		log.Printf("[VIACEP] ERROR: %s \n", err.Error())
