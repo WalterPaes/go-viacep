@@ -15,6 +15,7 @@ type Integration struct {
 	cep cep.CEP
 }
 
+// NewIntegration create a new integration instance
 func NewIntegration(cep cep.CEP) *Integration {
 	return &Integration{cep: cep}
 }
