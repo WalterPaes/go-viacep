@@ -10,6 +10,7 @@ import (
 	"net/http"
 )
 
+// Integration represents viacep integration
 type Integration struct {
 	cep cep.CEP
 }
